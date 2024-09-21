@@ -28,5 +28,9 @@ public class Main {
 		System.out.println(rec);
 		System.out.println(rec2);
 
+		System.out.print("Enter radius: ");
+		double r= input.nextDouble();
+		Circle c2 = new Circle(r);
+		System.out.print(c2.calcArea(r));
 	}
 }
